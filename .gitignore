@@ -1,0 +1,22 @@
+# Ignore virtual environments
+venv/
+gonio_venv/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore data files
+*.h5
+*.npy
+*.json
+
+# Ignore documentation and Word files
+*.docx
+
+# Ignore user-specific folders
+archiv/
+DexArm_API/
+
+# Ignore system files
+.DS_Store

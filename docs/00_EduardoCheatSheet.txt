@@ -1,0 +1,51 @@
+### This is my personal Cheat Sheet for Raspi Console ###
+* Important Information *
+ - SSH: biomed@measure.local    #from mac terminal ssh biomed@measure.local (has to be in same Wifi)
+ - PW: eduardomeasureeduardo
+
+#touch: use to create new files
+touch filename.py
+
+#nano: use to access the terminal text editor
+nano filename.py
+
+#cp: use to copy files
+cp source_file.py destination_file.py
+
+#rm: use to delete files
+rm filename.py
+
+#mv: use to rename files
+mv source_file.py destination_file.txt
+
+### This is my personal Cheat Sheet for Python Programming ###
+
+#Create a virtual environment
+python -m venv venv
+
+#Activate a virtual environment
+source venv/bin/activate
+source /home/Biomed/venv/bin/activate
+source /home/Biomed/gonio/bin/activate
+source gonio_venv/bin/activate
+
+#cd: move into a directory
+cd my_project
+cd ..               #up one level
+cd ~                #home directory
+
+#ls: list contents
+ls
+ls -l               #include details
+
+#Run a script
+python my_script.py
+
+#Install Modules (be sure to be within the Virtual Environment)
+pip install nameofmodule
+
+#Check H5 Files
+h5dump -n your_file.h5
+
+# List Raspberry USB Devices
+ls /dev/*USB*
